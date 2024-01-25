@@ -4,30 +4,28 @@ const fs = require('fs');
 const inq = require('inquirer');
 const gm = require('./utils/generateMarkdown');
 
-
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     console.log("Starting writeToFile ");   
-    fs.writeFile('README.md', data, (err) => err ? errFunct(err): console.log("Success!"));
+    fs.writeFile('README.md', data, (err) => err ? console.log("WriteFile Err: " + err): console.log("Success!"));
 }
 
-function errFunct(err) {console.log ("Error in write file ");}
-
-// TODO: Create a function to initialize app
+// ====== All Init Methods Next =========================
+// TODO: Create a function to initialize app - and call the main inquirer .prompt routine. MJS 1.24.24
 function init() {
     console.log("Welcome to Mike Sheliga's README.md file generator.");
     const licenseInfo = initLicenseInfo(); 
     const licenseNameArray = initLicenseNameArray(licenseInfo);
-    const questions = initQuestions();
+    const questions = initQuestions(licenseNameArray);
     inq
     .prompt(questions)
     .then((ans) => {
         console.log("Beginning .then");
-        const data = gm.generateMarkdown(ans);
+        const data = gm.generateMarkdown(ans, licenseInfo);
         console.log("The gm data is \n" + data);
         writeToFile('README.md', data)
     });
-}
+} // end function init
 
 // Create a list of licenses. Each license has a name, link and badge.
 function initLicenseInfo() {
@@ -38,26 +36,29 @@ function initLicenseInfo() {
 //    Really nice: https://choosealicense.com/ (if you are unsure, which license to choose)
 
 const licenseInfo = []; 
-var license = {};
+var license = {}; // must be able to change, so var not const
 license.name = "None";
 license.badge = "";
 license.link = "";
 licenseInfo.push(license);
 // Apache
+license = {}; // redeclare, or else previously pushed licenses change as well.
 license.name = "Apache - Apache 2.0 License";
 license.badge = "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]";
 license.link = "https://opensource.org/licenses/Apache-2.0"
 licenseInfo.push(license);
 // Boost
+license = {};
 license.name = "Boost Software License 1.0";
 license.badge = "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)]";
 license.link = "(https://www.boost.org/LICENSE_1_0.txt)";
 licenseInfo.push(license);
-
 // BSD
-// BSD 3-Clause License
-// [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
-
+license = {};
+license.name = "BSD 3-Clause License";
+license.badge = "[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)]";
+license.link = "(https://opensource.org/licenses/BSD-3-Clause)";
+licenseInfo.push(license);
 // BSD 2-Clause License
 // [![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
 
@@ -120,12 +121,13 @@ licenseInfo.push(license);
 function initLicenseNameArray(licenseInfo) {
     const licenseNameArray = [];
     for (var license of licenseInfo) {
+        console.log("License Name is " + license.name);
         licenseNameArray.push(license.name);
     }
     return licenseNameArray;
 } // end initLicenseNameArray 
 
-function initQuestions(licenseInfo) {
+function initQuestions(licenseNameArray) {
 // TODO: Create an array of questions for user input
 // description, installation instructions, usage information, contribution guidelines, and test instructions
 // Description, Installation,              Usage,             Contributing,            and Tests
@@ -150,11 +152,12 @@ function initQuestions(licenseInfo) {
     //    }, 
         {
             type: 'rawlist', message: 'Please choose a license:', name: 'license', 
-            default: '1', choices: ['None', "Apache - Apache 2.0 License", "Boost Software License 1.0"],
+            default: '1', choices: licenseNameArray,
         }, 
     ];
   return questions;
 } // end initQuestions 
 
+// =================== Begin the App by Calling Init ======================
 // Function call to initialize app
 init();

@@ -11,26 +11,36 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {
-    var licenseLinkStr = `[${license}](https://opensource.org/licenses/Apache-2.0)`;
-    return licenseLinkStr; 
+function renderLicenseLink(license, licenseInfo) {
+    if (license === "None" || license === "" || license === undefined || license == null) {
+        return ""; 
+    }
+    for (const licenseData of licenseInfo) {
+        if (license === licenseData.name) {
+            var licenseLinkStr = `[${license}]${licenseData.link}`;
+            return licenseLinkStr;
+        }
+    }
+    console.log(`Error. Could not find ${license} in array of all licenses.`);
+    return ""; 
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {
+function renderLicenseSection(license, licenseInfo) {
     if (license === "None") {
         return "";
     }
     var licenseStr = `## License  \n`;
-    licenseStr += renderLicenseLink(license); 
+    licenseStr += renderLicenseLink(license, licenseInfo); 
     licenseStr += `  \n\n`
     return licenseStr;
-}
+} // end function rendenLicenseSections
 
 // TODO: Create a function to generate markdown for README
 // Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions  
-function generateMarkdown(data) {
+// licenseInfo used to create license link and license badge.
+function generateMarkdown(data, licenseInfo) {
     console.log("Starting generateMarkdown");
     var mdStr = "";
     mdStr += `# ${data.title}   `;
@@ -50,7 +60,7 @@ function generateMarkdown(data) {
 //    mdStr += `## Contributing  \n  ${data.contribution}   \n\n`;
 //    mdStr += `## Tests  \n  ${data.test}   \n\n`;
 //    mdStr += `## Questions  \n  ${data.test}   \n\n`;
-    mdStr += renderLicenseSection(data.license);
+    mdStr += renderLicenseSection(data.license, licenseInfo);
     return mdStr;
 }
 
