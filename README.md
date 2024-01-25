@@ -7,7 +7,7 @@ Link to GitHub Repo: https://github.com/msheliga1/uriHW9NodeReadmeGen
 Link to deployed github.io site. https://msheliga1.github.io/uriHW9NodeReadmeGen   
 Link to screenshot of deployed github.io site. ![HW 6 Fetch APIs GitHub Deployed Start Screenshot](./assets/images/WorkingScreenshot.PNG)    
 Link to 2nd screenshot. ![HW 6 Fetch APIs GitHub Results Screenshot](./assets/images/ResultsScreenshot.PNG)   
-[Link to Acceptance Criteria RM] (/README.md#acceptance-criteria)
+[Link to Acceptance Criteria ] (#acceptance-criteria)
 
 ## Project Goals  
 Use node and the fs and inquirer libraries to create a README.md file based upon answers to inquirer prompts.  
