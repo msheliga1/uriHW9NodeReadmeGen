@@ -1,16 +1,16 @@
-# gitname and email test   [![License Boost](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)  
+# gitName link test   [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)  
 
 ## Description   
-  desc   
+  glt   
 
 ## Table of Contents   
 [Questions](#questions)  
 [License](#license)  
   
 ## Questions  
-GitHub UserName: msheliga  
+GitHub UserName: msheliga  [Link](https://github.com/msheliga) 
 Contact Email: msheliga1@gmail.com  
 
 ## License  
-[Boost Software License 1.0](https://www.boost.org/LICENSE_1_0.txt)  
+[BSD 3-Clause License](https://opensource.org/licenses/BSD-3-Clause)  
 
