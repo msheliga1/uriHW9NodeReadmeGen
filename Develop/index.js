@@ -193,7 +193,7 @@ function initQuestions(licenseNameArray) {
             type: 'input', message: 'Please enter your gitHub username:', name: 'gitName',
         }, 
         {  
-            type: 'input', message: 'Please enter your email:', name: 'email',
+            type: 'email', message: 'Please enter your email:', name: 'email',
         }, 
     ];
   return questions;

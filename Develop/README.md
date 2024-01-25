@@ -1,7 +1,7 @@
-# glt3   [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)  
+# tit   [![License CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/)  
 
 ## Description   
-  glt3   
+  ddd   
 
 ## Table of Contents   
 [Questions](#questions)  
@@ -9,8 +9,8 @@
   
 ## Questions  
 GitHub UserName: [msheliga1](https://github.com/msheliga1)   
-Contact Email: msheliga1@gmail.com  
+Contact Email: jooe  
 
 ## License  
-[Creative Commons CC0-1.0](http://creativecommons.org/publicdomain/zero/1.0/)  
+[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
 
