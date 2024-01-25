@@ -7,7 +7,7 @@ Link to GitHub Repo: https://github.com/msheliga1/uriHW9NodeReadmeGen
 Link to deployed github.io site. https://msheliga1.github.io/uriHW9NodeReadmeGen   
 Link to screenshot of deployed github.io site. ![HW 6 Fetch APIs GitHub Deployed Start Screenshot](./assets/images/WorkingScreenshot.PNG)    
 Link to 2nd screenshot. ![HW 6 Fetch APIs GitHub Results Screenshot](./assets/images/ResultsScreenshot.PNG)   
-[Link to Acceptance Criteria] (/README.md#Acceptance)
+[Link to Acceptance CriteriaX] (/blob/main/README.md#acceptance-criteria)
 
 ## Project Goals  
 Use node and the fs and inquirer libraries to create a README.md file based upon answers to inquirer prompts.  
@@ -49,7 +49,7 @@ See Also: [How to create a Professional README](https://coding-boot-camp.github.
     inquirer - Used for prompts (text, checkboxes, radio buttons, etc.)
     Agile - Try to assign a little work at a time.   
 
-# Acceptance  
+# Acceptance Criteria
 -----------------------  
 README generator to quickly create a professional README for a new project  
   
