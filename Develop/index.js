@@ -165,7 +165,7 @@ function initLicenseNameArray(licenseInfo) {
 function initQuestions(licenseNameArray) {
 // TODO: Create an array of questions for user input
 // description, installation instructions, usage information, contribution guidelines, and test instructions
-// Description, Installation,              Usage,             Contributing,            and Tests
+// Description, Installation,              Usage,             Contributing,            and Tests and Questioins
     const questions = [
         {
         type: 'input', message: 'Please enter project title:', name: 'title',
@@ -188,6 +188,12 @@ function initQuestions(licenseNameArray) {
         {  // don't see how an object (w/ name, link and badge) can be stored here 
             type: 'rawlist', message: 'Please choose a license:', name: 'license', 
             default: '1', choices: licenseNameArray,
+        }, 
+        {  
+            type: 'input', message: 'Please enter your gitHub username:', name: 'gitName',
+        }, 
+        {  
+            type: 'input', message: 'Please enter your email:', name: 'email',
         }, 
     ];
   return questions;
