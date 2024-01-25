@@ -1,19 +1,30 @@
-# My Project Title   [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)  
+# Mike Sheliga's Sample Project   [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)  
 
 ## Description   
-  My Project Description   
+  Mike Sheliga's Sample Description   
 
 ## Table of Contents   
 [Installation](#installation)  
+[Usage](#usage)  
+[Contributing](#contributing)  
+[Testing](#tests)  
 [Questions](#questions)  
 [License](#license)  
   
 ## Installation  
-  Installation Instructions from Notepad.
-   
+  To install this app you must ... enter instructions in the text editor and follow the installation instructions.   
+
+## Usage  
+  Sample Usage Info   
+
+## Contributing  
+  To contribute use gitHub pull requests.   
+
+## Tests  
+  Sample Test Instructions   
 
 ## Questions  
-GitHub UserName: msheliga1 [Link to GitHub Acocount](https://github.com/msheliga1)   
+GitHub UserName: msheliga1 [Link to GitHub Account](https://github.com/msheliga1)   
 Contact Email: msheliga1@gmail.com  
 
 ## License  

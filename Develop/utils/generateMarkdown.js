@@ -59,22 +59,22 @@ function generateMarkdown(data, licenseInfo) {
     mdStr += `## Description   \n  ${data.description}   \n\n`;
     mdStr += `## Table of Contents   \n`;
     mdStr += `[Installation](#installation)  \n`;
-//    mdStr += `[Usage](#usage)  \n`;
-//    mdStr += `[Contributing](#contributing)  \n`;
-//    mdStr += `[Testing](#tests)  \n`;
+    mdStr += `[Usage](#usage)  \n`;
+    mdStr += `[Contributing](#contributing)  \n`;
+    mdStr += `[Testing](#tests)  \n`;
     mdStr += `[Questions](#questions)  \n`; 
     mdStr += `[License](#license)  \n`;   
     mdStr += `  \n`;
     mdStr += `## Installation  \n  ${data.install}   \n\n`;
-//    mdStr += `## Usage  \n  ${data.usage}   \n\n`;
-//    mdStr += `## Contributing  \n  ${data.contribution}   \n\n`;
-//    mdStr += `## Tests  \n  ${data.test}   \n\n`;
+    mdStr += `## Usage  \n  ${data.usage}   \n\n`;
+    mdStr += `## Contributing  \n  ${data.contribution}   \n\n`;
+    mdStr += `## Tests  \n  ${data.test}   \n\n`;
     mdStr += `## Questions  \n`;
-    mdStr += `GitHub UserName: ${data.gitName} [Link to GitHub Acocount](https://github.com/${data.gitName})   \n`;
+    mdStr += `GitHub UserName: ${data.gitName} [Link to GitHub Account](https://github.com/${data.gitName})   \n`;
     mdStr += `Contact Email: ${data.email}  \n\n`;
     mdStr += renderLicenseSection(data.license, licenseInfo);
     return mdStr;
-}
+} // end generaterMarkdown
 
 // Following line seems to need {} added. Wouldn't work without it!!
 module.exports = {generateMarkdown};

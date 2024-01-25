@@ -169,36 +169,28 @@ function initQuestions(licenseNameArray) {
 // Description, Installation,              Usage,             Contributing,            and Tests and Questioins
     const questions = [
         {
-        type: 'input', message: 'Please enter project title:', name: 'title',
-        },
+            type: 'input', message: 'Please enter project title:', name: 'title',    },
         {
-        type: 'input', message: 'Please enter project description:', name: 'description',
-        },
+            type: 'input', message: 'Please enter project description:', name: 'description',        },
+        {   // Made this type:editor since its longer, and to demonstrate this inquirer type.
+            type: 'editor', message: 'Please enter installation instructions:', name: 'install', 
+            default: 'To install this app you must ... ',      },
+        {   
+            type: 'input', message: 'Please enter usage information', name: 'usage',        },    
         {
-          type: 'editor', message: 'Please enter installation instructions:', name: 'install',
-        },
-    //    {
-    //      type: 'text', message: 'Please enter usage information', name: 'usage',
-    //    },    
-    //    {
-    //        type: 'text', message: 'Please enter contribution guidelines:', name: 'contribution',
-    //    },   
-    //    {
-    //        type: 'text', message: 'Please enter test instructions:', name: 'test',
-    //    }, 
+            type: 'input', message: 'Please enter contribution guidelines:', name: 'contribution',        },   
+        {
+            type: 'input', message: 'Please enter test instructions:', name: 'test',        }, 
         {  // don't see how an object (w/ name, link and badge) can be stored here 
             type: 'rawlist', message: 'Please choose a license:', name: 'license', 
-            default: '1', choices: licenseNameArray,
-        }, 
+            default: '1', choices: licenseNameArray,        }, 
         {  
-            type: 'input', message: 'Please enter your gitHub username:', name: 'gitName',
-        }, 
+            type: 'input', message: 'Please enter your gitHub username:', name: 'gitName',        }, 
         {   // there appears to be no email type in inquirer .. use validator instead.
-            type: 'input', message: 'Please enter your email:', name: 'email', validate: emailVal.validate,
-        }, 
+            type: 'input', message: 'Please enter your email:', name: 'email', validate: emailVal.validate, }, 
     ];
-  return questions;
-} // end initQuestions 
+  return  questions;
+} // end initQuestions  
 
 const myEV = (input) => {
     console.log(" \n Running myEV");
