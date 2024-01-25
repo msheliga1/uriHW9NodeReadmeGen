@@ -12,7 +12,7 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-    var licenseLinkStr = "[Link](https://opensource.org/licenses/Apache-2.0)";
+    var licenseLinkStr = `[${license}](https://opensource.org/licenses/Apache-2.0)`;
     return licenseLinkStr; 
 }
 
