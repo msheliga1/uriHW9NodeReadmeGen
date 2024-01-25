@@ -1,4 +1,4 @@
-# gitName link test   [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)  
+# glt 2   [![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)  
 
 ## Description   
   glt   
@@ -8,9 +8,9 @@
 [License](#license)  
   
 ## Questions  
-GitHub UserName: msheliga  [Link](https://github.com/msheliga) 
+GitHub UserName: msheliga1  [Link](https://github.com/msheliga1) 
 Contact Email: msheliga1@gmail.com  
 
 ## License  
-[BSD 3-Clause License](https://opensource.org/licenses/BSD-3-Clause)  
+[BSD 2-Clause License](https://opensource.org/licenses/BSD-2-Clause)  
 
