@@ -28,7 +28,7 @@ const questions = [
 //    }, 
     {
         type: 'rawlist', message: 'Please choose a license:', name: 'license', 
-        default: '1', choices: ['None', "Apache - Apache 2.0 License"],
+        default: '1', choices: ['None', "Apache - Apache 2.0 License", "Boost Software License 1.0"],
     }, 
   ]
 
@@ -40,13 +40,20 @@ const questions = [
 
 const licenseInfo = []; 
 var license = {};
-license.name = "Apache - Apache 2.0 License";
-license.badge = "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+license.name = "None";
+license.badge = "";
+license.link = "";
 licenseInfo.push(license);
-
+// Apache
+license.name = "Apache - Apache 2.0 License";
+license.badge = "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]";
+license.link = "https://opensource.org/licenses/Apache-2.0"
+licenseInfo.push(license);
 // Boost
-// Boost Software License 1.0
-// [![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+license.name = "Boost Software License 1.0";
+license.badge = "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)]";
+license.link = "(https://www.boost.org/LICENSE_1_0.txt)";
+licenseInfo.push(license);
 
 // BSD
 // BSD 3-Clause License
