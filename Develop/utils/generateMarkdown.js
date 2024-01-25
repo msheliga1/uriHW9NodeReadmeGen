@@ -15,7 +15,7 @@ function renderLicenseBadge(license, licenseInfo) {
             return licenseBadgeStr;
         }
     }
-    console.log(`Error. Could not find ${license} in array of all licenses while looking for license badge.`);
+    // console.log(`Error. Could not find ${license} in array of all licenses while looking for license badge.`);
     return ""; 
 }
 
@@ -38,11 +38,11 @@ function renderLicenseLink(license, licenseInfo) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license, licenseInfo) {
-    if (license === "None") {
+    if (license === "None" || license === "" || license === undefined || license == null) {
         return "";
     }
     var licenseStr = `## License  \n`;
-    licenseStr += "Project lincensed under " + renderLicenseLink(license, licenseInfo); 
+    licenseStr += "Project licensed under " + renderLicenseLink(license, licenseInfo); 
     licenseStr += `  \n\n`
     return licenseStr;
 } // end function rendenLicenseSections
@@ -51,7 +51,7 @@ function renderLicenseSection(license, licenseInfo) {
 // Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions  
 // licenseInfo used to create license link and license badge.
 function generateMarkdown(data, licenseInfo) {
-    console.log("Starting generateMarkdown");
+    // console.log("Starting generateMarkdown");
     var mdStr = "";
     mdStr += `# ${data.title}   `;
     mdStr += renderLicenseBadge(data.license, licenseInfo);

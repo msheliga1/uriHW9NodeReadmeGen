@@ -7,24 +7,25 @@ const emailVal = require('email-validator');
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    console.log("Starting writeToFile ");   
+    // console.log("Starting writeToFile ");   
     fs.writeFile('README.md', data, (err) => err ? console.log("WriteFile Err: " + err): console.log("Success!"));
 }
 
 // ====== All Init Methods Next =========================
 // TODO: Create a function to initialize app - and call the main inquirer .prompt routine. MJS 1.24.24
 function init() {
-    console.log("Welcome to Mike Sheliga's README.md file generator.");
+    console.log("Welcome to Mike Sheliga's README.md file generator. \n");
     const licenseInfo = initLicenseInfo(); 
     const licenseNameArray = initLicenseNameArray(licenseInfo);
     const questions = initQuestions(licenseNameArray);
     inq
     .prompt(questions)
     .then((ans) => {
-        console.log("Beginning .then");
+        // console.log("Beginning .then");
         const data = gm.generateMarkdown(ans, licenseInfo);
-        console.log("The gm data is \n" + data);
-        writeToFile('README.md', data)
+        // Great place to output entire README.md file for debugging.
+        // console.log("The generated markdown README.md data is \n" + data);
+        writeToFile('README.md', data); 
     });
 } // end function init
 
@@ -157,7 +158,7 @@ return licenseInfo;
 function initLicenseNameArray(licenseInfo) {
     const licenseNameArray = [];
     for (var license of licenseInfo) {
-        console.log("License Name is " + license.name);
+        // console.log("License Name is " + license.name);
         licenseNameArray.push(license.name);
     }
     return licenseNameArray;
@@ -192,8 +193,9 @@ function initQuestions(licenseNameArray) {
   return  questions;
 } // end initQuestions  
 
+// Sample validation method no longer used
 const myEV = (input) => {
-    console.log(" \n Running myEV");
+    // console.log(" \n Running myEV");
     return true;
 }
 

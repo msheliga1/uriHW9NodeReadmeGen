@@ -1,7 +1,7 @@
-# Mike Sheliga's Sample Project   [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)  
+# tit   [![License: Open Data Commons Attribution](https://img.shields.io/badge/License-ODC_BY-brightgreen.svg)](https://opendatacommons.org/licenses/by/)  
 
 ## Description   
-  Mike Sheliga's Sample Description   
+  des   
 
 ## Table of Contents   
 [Installation](#installation)  
@@ -12,21 +12,21 @@
 [License](#license)  
   
 ## Installation  
-  To install this app you must ... enter instructions in the text editor and follow the installation instructions.   
+  To install this app you must ... enter instructions.   
 
 ## Usage  
-  Sample Usage Info   
+  usa   
 
 ## Contributing  
-  To contribute use gitHub pull requests.   
+  con   
 
 ## Tests  
-  Sample Test Instructions   
+  test   
 
 ## Questions  
 GitHub UserName: msheliga1 [Link to GitHub Account](https://github.com/msheliga1)   
 Contact Email: msheliga1@gmail.com  
 
 ## License  
-Project lincensed under [Mozilla Public License  2.0](https://opensource.org/licenses/MPL-2.0)  
+Project licensed under [Open Data Commons Attribution](https://opendatacommons.org/licenses/by/)  
 

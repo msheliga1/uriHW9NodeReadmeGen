@@ -2,7 +2,7 @@
 URI Bootcamp HW Week 9 - Due 1.25.24 - Node.js Readme.md Generator Using inquirer and fs  
 Michael Sheliga - This repo is for the University of Richmond (URI) coding bootcamp.   
 
-## Link to Repo and Deployed Webpage    
+## Link to Repo, Screenshot(s) and/or video(s)
 Link to GitHub Repo: https://github.com/msheliga1/uriHW9NodeReadmeGen    
 <!---  Link to deployed github.io site. https://msheliga1.github.io/uriHW9NodeReadmeGen   --->
 Link to screenshot of application. ![HW 9 README.md generator input Screenshot](./Develop/images/WorkingScreenshot.PNG)    
