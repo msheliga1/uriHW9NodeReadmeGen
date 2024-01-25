@@ -7,6 +7,7 @@ Link to GitHub Repo: https://github.com/msheliga1/uriHW9NodeReadmeGen
 Link to deployed github.io site. https://msheliga1.github.io/uriHW9NodeReadmeGen   
 Link to screenshot of deployed github.io site. ![HW 6 Fetch APIs GitHub Deployed Start Screenshot](./assets/images/WorkingScreenshot.PNG)    
 Link to 2nd screenshot. ![HW 6 Fetch APIs GitHub Results Screenshot](./assets/images/ResultsScreenshot.PNG)   
+[Link to Acceptance Criteria] (/README.md#Acceptance)
 
 ## Project Goals  
 Use node and the fs and inquirer libraries to create a README.md file based upon answers to inquirer prompts.  
@@ -48,19 +49,19 @@ See Also: [How to create a Professional README](https://coding-boot-camp.github.
     inquirer - Used for prompts (text, checkboxes, radio buttons, etc.)
     Agile - Try to assign a little work at a time.   
 
-## Acceptance Criteria   
+# Acceptance  
 -----------------------  
-README generator to quickly create a professional README for a new project
-
+README generator to quickly create a professional README for a new project  
+  
 CLI app, prompts for info about my app repo
- - title of my project 
- - sections entitled 
-    - Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-    - enter description, installation instructions, usage information, contribution guidelines, and test instructions
-    - add to sections entitled Description, Installation, Usage, Contributing, and Tests
-- choose a license for appl from list of options
-    - badge for that license is added near the top of the README
-    - a notice is added to License section that explains which license the application is covered under
-- enter GitHub username, add to Questions, with a link to my GitHub profile
-- enter email address, add to Questions, with instructions on how to reach me with additional questions
-- links in the Table of Contents, take to the sections
+ - title of my project  
+ - sections entitled  
+    - Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions  
+    - enter description, installation instructions, usage info, contribution guidelines, and test instructions  
+    - add to sections entitled Description, Installation, Usage, Contributing, and Tests  
+- choose a license for appl from list of options  
+    - badge for that license is added near the top of the README  
+    - a notice is added to License section that explains which license the application is covered under  
+- enter GitHub username, add to Questions, with a link to my GitHub profile  
+- enter email address, add to Questions, with instructions on how to reach me with additional questions  
+- links in the Table of Contents, take to the sections  
