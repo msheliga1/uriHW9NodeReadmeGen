@@ -1,16 +1,16 @@
-# tit   [![License CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/)  
+# tit   [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)  
 
 ## Description   
-  ddd   
+  des   
 
 ## Table of Contents   
 [Questions](#questions)  
 [License](#license)  
   
 ## Questions  
-GitHub UserName: [msheliga1](https://github.com/msheliga1)   
-Contact Email: jooe  
+GitHub UserName: [mshelga1](https://github.com/mshelga1)   
+Contact Email: df@d.com  
 
 ## License  
-[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+[GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0)  
 

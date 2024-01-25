@@ -3,6 +3,7 @@
 const fs = require('fs');
 const inq = require('inquirer');
 const gm = require('./utils/generateMarkdown');
+const emailVal = require('email-validator');
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
@@ -192,12 +193,17 @@ function initQuestions(licenseNameArray) {
         {  
             type: 'input', message: 'Please enter your gitHub username:', name: 'gitName',
         }, 
-        {  
-            type: 'email', message: 'Please enter your email:', name: 'email',
+        {   // there appears to be no email type in inquirer .. use validator instead.
+            type: 'input', message: 'Please enter your email:', name: 'email', validate: emailVal.validate,
         }, 
     ];
   return questions;
 } // end initQuestions 
+
+const myEV = (input) => {
+    console.log(" \n Running myEV");
+    return true;
+}
 
 // =================== Begin the App by Calling Init ======================
 // Function call to initialize app
