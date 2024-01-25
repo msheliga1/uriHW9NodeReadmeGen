@@ -22,8 +22,9 @@ function renderLicenseSection(license) {
     if (license === "None") {
         return "";
     }
-    var licenseStr = `## License  \n  ${license}   \n\n`;
+    var licenseStr = `## License  \n`;
     licenseStr += renderLicenseLink(license); 
+    licenseStr += `  \n\n`
     return licenseStr;
 }
 
@@ -32,8 +33,9 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
     console.log("Starting generateMarkdown");
     var mdStr = "";
-    mdStr += `# ${data.title}   \n\n`;
+    mdStr += `# ${data.title}   `;
     mdStr += renderLicenseBadge(data.license);
+    mdStr += `  \n\n`;
     mdStr += `## Description   \n  ${data.description}   \n\n`;
     mdStr += `## Table of Contents   \n`;
 //    mdStr += `[Installation](#installation)  \n`;
