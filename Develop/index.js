@@ -150,7 +150,7 @@ function initQuestions(licenseNameArray) {
     //    {
     //        type: 'text', message: 'Please enter test instructions:', name: 'test',
     //    }, 
-        {
+        {  // don't see how an object (w/ name, link and badge) can be stored here 
             type: 'rawlist', message: 'Please choose a license:', name: 'license', 
             default: '1', choices: licenseNameArray,
         }, 

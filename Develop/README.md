@@ -1,12 +1,12 @@
-# title   [![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)  
+# ttttt   [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)  
 
 ## Description   
-  dd   
+  dddddd   
 
 ## Table of Contents   
 [Questions](#questions)  
 [License](#license)  
   
 ## License  
-[Boost Software License 1.0](https://www.boost.org/LICENSE_1_0.txt)  
+[BSD 3-Clause License](https://opensource.org/licenses/BSD-3-Clause)  
 

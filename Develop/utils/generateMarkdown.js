@@ -5,8 +5,18 @@
 // Badges let other developers know that you know what you're doing. 
 // Check out the badges hosted by [shields.io](https://shields.io/). 
 // You may not understand what they all represent now, but you will in time.
-function renderLicenseBadge(license) {
-    return "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)";
+function renderLicenseBadge(license, licenseInfo) {
+    if (license === "None" || license === "" || license === undefined || license == null) {
+        return ""; 
+    }
+    for (const licenseData of licenseInfo) {
+        if (license === licenseData.name) {
+            var licenseBadgeStr = `${licenseData.badge}${licenseData.link}`;
+            return licenseBadgeStr;
+        }
+    }
+    console.log(`Error. Could not find ${license} in array of all licenses while looking for license badge.`);
+    return ""; 
 }
 
 // TODO: Create a function that returns the license link
@@ -44,7 +54,7 @@ function generateMarkdown(data, licenseInfo) {
     console.log("Starting generateMarkdown");
     var mdStr = "";
     mdStr += `# ${data.title}   `;
-    mdStr += renderLicenseBadge(data.license);
+    mdStr += renderLicenseBadge(data.license, licenseInfo);
     mdStr += `  \n\n`;
     mdStr += `## Description   \n  ${data.description}   \n\n`;
     mdStr += `## Table of Contents   \n`;
