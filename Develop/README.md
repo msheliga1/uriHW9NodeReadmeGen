@@ -4,13 +4,14 @@
   desc   
 
 # Table of Contents   
-  desc   
+[Installation](#installation) 
+[Usage](#usage) 
 
 # Installation  
-  ins   
+  install   
 
 # Usage  
-  info   
+  use   
 
 # Contributing  
   cont   
