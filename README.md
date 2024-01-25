@@ -4,10 +4,10 @@ Michael Sheliga - This repo is for the University of Richmond (URI) coding bootc
 
 ## Link to Repo and Deployed Webpage    
 Link to GitHub Repo: https://github.com/msheliga1/uriHW9NodeReadmeGen    
-// Link to deployed github.io site. https://msheliga1.github.io/uriHW9NodeReadmeGen   
+<!---  Link to deployed github.io site. https://msheliga1.github.io/uriHW9NodeReadmeGen   --->
 Link to screenshot of deployed github.io site. ![HW 9 README.md generator input Screenshot](./Develop/images/WorkingScreenshot.PNG)    
 Link to 2nd screenshot. ![HW 9 README.md generator sample file Screenshot](./Develop/images/ResultsScreenshot.PNG)   
-[Link to Acceptance Criteria ](#acceptance-criteria)  
+[Link to Acceptance Criteria ](#acceptance-criteria)   
 
 ## Project Goals     
 Use node and the fs and inquirer libraries to create a README.md file based upon answers to inquirer prompts.  
