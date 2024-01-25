@@ -1,24 +1,27 @@
-# tit   
+# TitleMJS   
 
-# Description   
+## Description   
   desc   
 
-# Table of Contents   
-[Installation](#installation) 
-[Usage](#usage) 
-
-# Installation  
+## Table of Contents   
+[Installation](#installation)  
+[Usage](#usage)  
+[Contributing](#contributing)  
+[Testing](#tests)  
+[Questions](#questions)  
+  
+## Installation  
   install   
 
-# Usage  
-  use   
+## Usage  
+  usage   
 
-# Contributing  
-  cont   
+## Contributing  
+  contrib   
 
-# Tests  
+## Tests  
   test   
 
-# Questions  
+## Questions  
   test   
 
