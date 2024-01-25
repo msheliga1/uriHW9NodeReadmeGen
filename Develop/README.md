@@ -1,7 +1,7 @@
-# tit   [![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)  
+# ghmod   [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)  
 
 ## Description   
-  editor   
+  install editor   
 
 ## Table of Contents   
 [Installation](#installation)  
@@ -9,12 +9,12 @@
 [License](#license)  
   
 ## Installation  
-  Installation Instructions   
+  Here are my installation instructions ... blah, blah, blah, blah ...   
 
 ## Questions  
-GitHub UserName: [msheliga1](https://github.com/msheliga1)   
-Contact Email: m@b.com  
+GitHub UserName: msheliga1 [Link to GitHub Acocount](https://github.com/msheliga1)   
+Contact Email: msheliga1@gmail.com  
 
 ## License  
-[IBM IPL 1.0](https://opensource.org/licenses/IPL-1.0)  
+[ISC License](https://opensource.org/licenses/ISC)  
 

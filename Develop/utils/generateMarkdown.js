@@ -70,7 +70,7 @@ function generateMarkdown(data, licenseInfo) {
 //    mdStr += `## Contributing  \n  ${data.contribution}   \n\n`;
 //    mdStr += `## Tests  \n  ${data.test}   \n\n`;
     mdStr += `## Questions  \n`;
-    mdStr += `GitHub UserName: [${data.gitName}](https://github.com/${data.gitName})   \n`;
+    mdStr += `GitHub UserName: ${data.gitName} [Link to GitHub Acocount](https://github.com/${data.gitName})   \n`;
     mdStr += `Contact Email: ${data.email}  \n\n`;
     mdStr += renderLicenseSection(data.license, licenseInfo);
     return mdStr;
