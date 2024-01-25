@@ -10,9 +10,9 @@ Link to 2nd screenshot. ![HW 6 Fetch APIs GitHub Results Screenshot](./assets/im
 
 ## Project Goals  
 Use node and the fs and inquirer libraries to create a README.md file based upon answers to inquirer prompts.  
-
+See Also: [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 ==================================================================================================================   ## Technical Project Details    
-===================================================================================================================  
+==================================================================================================================  
 ## Github:   
     Create Repo (github, repositories => New)   
         - Dont Make this a shared repo.  
