@@ -9,9 +9,10 @@ Link to screenshot of deployed github.io site. ![HW 6 Fetch APIs GitHub Deployed
 Link to 2nd screenshot. ![HW 6 Fetch APIs GitHub Results Screenshot](./assets/images/ResultsScreenshot.PNG)   
 [Link to Acceptance Criteria ](#acceptance-criteria)
 
-## Project Goals  
+## Project Goals     
 Use node and the fs and inquirer libraries to create a README.md file based upon answers to inquirer prompts.  
-See Also: [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+See Also: [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)  
+
 ==================================================================================================================   ## Technical Project Details    
 ==================================================================================================================  
 ## Github:   

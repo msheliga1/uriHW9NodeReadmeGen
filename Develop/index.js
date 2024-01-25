@@ -5,27 +5,27 @@ const inq = require('inquirer');
 const gm = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
+// description, installation instructions, usage information, contribution guidelines, and test instructions
+// Description, Installation,              Usage,             Contributing,            and Tests
 const questions = [
     {
-      type: 'input',
-      message: 'Please enter project title:',
-      name: 'title',
+      type: 'input', message: 'Please enter project title:', name: 'title',
     },
     {
-      type: 'input',
-      message: 'Wheerz ya frum?',
-      name: 'hometown',
+      type: 'input', message: 'Please enter project description:', name: 'description',
     },
     {
-        type: 'input',
-        message: 'Bio?',
-        name: 'bio',
-      },
-      {
-        type: 'input',
-        message: 'GitHub URL',
-        name: 'gitHub',
-      },    
+      type: 'input', message: 'Please enter installation instructions:', name: 'install',
+    },
+    {
+      type: 'input', message: 'Please enter usage information', name: 'usage',
+    },    
+    {
+        type: 'input', message: 'Please enter contribution guidelines:', name: 'contribution',
+    },   
+    {
+        type: 'input', message: 'Please enter test instructions:', name: 'test',
+    }, 
   ]
 
 // TODO: Create a function to write README file
@@ -44,7 +44,7 @@ function init() {
     .then((ans) => {
         console.log("Beginning .then");
         const data = gm.generateMarkdown(ans);
-        console.log("The gm data is " + data);
+        console.log("The gm data is \n" + data);
         writeToFile('README.md', data)
     });
 }
