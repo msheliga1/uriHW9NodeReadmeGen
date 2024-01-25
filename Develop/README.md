@@ -1,7 +1,7 @@
-# ghmod   [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)  
+# My Project Title   [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)  
 
 ## Description   
-  install editor   
+  My Project Description   
 
 ## Table of Contents   
 [Installation](#installation)  
@@ -9,12 +9,13 @@
 [License](#license)  
   
 ## Installation  
-  Here are my installation instructions ... blah, blah, blah, blah ...   
+  Installation Instructions from Notepad.
+   
 
 ## Questions  
 GitHub UserName: msheliga1 [Link to GitHub Acocount](https://github.com/msheliga1)   
 Contact Email: msheliga1@gmail.com  
 
 ## License  
-[ISC License](https://opensource.org/licenses/ISC)  
+Project lincensed under [Mozilla Public License  2.0](https://opensource.org/licenses/MPL-2.0)  
 

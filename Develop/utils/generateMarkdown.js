@@ -42,7 +42,7 @@ function renderLicenseSection(license, licenseInfo) {
         return "";
     }
     var licenseStr = `## License  \n`;
-    licenseStr += renderLicenseLink(license, licenseInfo); 
+    licenseStr += "Project lincensed under " + renderLicenseLink(license, licenseInfo); 
     licenseStr += `  \n\n`
     return licenseStr;
 } // end function rendenLicenseSections
