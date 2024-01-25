@@ -43,7 +43,7 @@ license.link = "";
 licenseInfo.push(license);
 // Apache
 license = {}; // redeclare, or else previously pushed licenses change as well.
-license.name = "Apache - Apache 2.0 License";
+license.name = "Apache 2.0 License";
 license.badge = "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]";
 license.link = "(https://opensource.org/licenses/Apache-2.0)";
 licenseInfo.push(license);
