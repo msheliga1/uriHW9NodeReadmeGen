@@ -1,16 +1,16 @@
-# glt 2   [![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)  
+# glt3   [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)  
 
 ## Description   
-  glt   
+  glt3   
 
 ## Table of Contents   
 [Questions](#questions)  
 [License](#license)  
   
 ## Questions  
-GitHub UserName: msheliga1  [Link](https://github.com/msheliga1) 
+GitHub UserName: [msheliga1](https://github.com/msheliga1)   
 Contact Email: msheliga1@gmail.com  
 
 ## License  
-[BSD 2-Clause License](https://opensource.org/licenses/BSD-2-Clause)  
+[Creative Commons CC0-1.0](http://creativecommons.org/publicdomain/zero/1.0/)  
 
