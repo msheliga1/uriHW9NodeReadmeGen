@@ -58,14 +58,14 @@ function generateMarkdown(data, licenseInfo) {
     mdStr += `  \n\n`;
     mdStr += `## Description   \n  ${data.description}   \n\n`;
     mdStr += `## Table of Contents   \n`;
-//    mdStr += `[Installation](#installation)  \n`;
+    mdStr += `[Installation](#installation)  \n`;
 //    mdStr += `[Usage](#usage)  \n`;
 //    mdStr += `[Contributing](#contributing)  \n`;
 //    mdStr += `[Testing](#tests)  \n`;
     mdStr += `[Questions](#questions)  \n`; 
     mdStr += `[License](#license)  \n`;   
     mdStr += `  \n`;
-//    mdStr += `## Installation  \n  ${data.install}   \n\n`;
+    mdStr += `## Installation  \n  ${data.install}   \n\n`;
 //    mdStr += `## Usage  \n  ${data.usage}   \n\n`;
 //    mdStr += `## Contributing  \n  ${data.contribution}   \n\n`;
 //    mdStr += `## Tests  \n  ${data.test}   \n\n`;

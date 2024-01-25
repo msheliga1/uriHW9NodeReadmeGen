@@ -1,16 +1,20 @@
-# tit   [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)  
+# tit   [![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)  
 
 ## Description   
-  des   
+  editor   
 
 ## Table of Contents   
+[Installation](#installation)  
 [Questions](#questions)  
 [License](#license)  
   
+## Installation  
+  Installation Instructions   
+
 ## Questions  
-GitHub UserName: [mshelga1](https://github.com/mshelga1)   
-Contact Email: df@d.com  
+GitHub UserName: [msheliga1](https://github.com/msheliga1)   
+Contact Email: m@b.com  
 
 ## License  
-[GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0)  
+[IBM IPL 1.0](https://opensource.org/licenses/IPL-1.0)  
 

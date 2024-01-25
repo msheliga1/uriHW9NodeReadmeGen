@@ -174,9 +174,9 @@ function initQuestions(licenseNameArray) {
         {
         type: 'input', message: 'Please enter project description:', name: 'description',
         },
-    //    {
-    //      type: 'text', message: 'Please enter installation instructions:', name: 'install',
-    //    },
+        {
+          type: 'editor', message: 'Please enter installation instructions:', name: 'install',
+        },
     //    {
     //      type: 'text', message: 'Please enter usage information', name: 'usage',
     //    },    
