@@ -1,12 +1,12 @@
-# ttttt   [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)  
+# tit   [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/)  
 
 ## Description   
-  dddddd   
+  ddd   
 
 ## Table of Contents   
 [Questions](#questions)  
 [License](#license)  
   
 ## License  
-[BSD 3-Clause License](https://opensource.org/licenses/BSD-3-Clause)  
+[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
 

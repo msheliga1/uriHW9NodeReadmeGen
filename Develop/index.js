@@ -45,7 +45,7 @@ licenseInfo.push(license);
 license = {}; // redeclare, or else previously pushed licenses change as well.
 license.name = "Apache - Apache 2.0 License";
 license.badge = "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]";
-license.link = "https://opensource.org/licenses/Apache-2.0"
+license.link = "https://opensource.org/licenses/Apache-2.0";
 licenseInfo.push(license);
 // Boost
 license = {};
@@ -60,62 +60,87 @@ license.badge = "[![License](https://img.shields.io/badge/License-BSD_3--Clause-
 license.link = "(https://opensource.org/licenses/BSD-3-Clause)";
 licenseInfo.push(license);
 // BSD 2-Clause License
-// [![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
-
+license = {};
+license.name = "BSD 2-Clause License";
+license.badge = "[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)]";
+license.link = "(https://opensource.org/licenses/BSD-2-Clause)";
+licenseInfo.push(license);
 // Creative Commons
-// CC0 License: CC0-1.0
-// [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
-
+license = {};
+license.name = "Creative Commons CC0-1.0";
+license.badge = "[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)]";
+license.link = "(http://creativecommons.org/publicdomain/zero/1.0/)";
+licenseInfo.push(license);
 // License: CC BY 4.0
-// [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/)
-
+license = {};
+license.name = "Creative Commons BY 4.0";
+license.badge = "[![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)]";
+license.link = "(https://creativecommons.org/licenses/by/4.0/)";
+licenseInfo.push(license);
 // Eclipse - Eclipse Public License 1.0
-// [![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
-
+license = {};
+license.name = "Eclipse Public License 1.0";
+license.badge = "[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)]";
+license.link = "(https://opensource.org/licenses/EPL-1.0)";
+licenseInfo.push(license);
 // GNU - GNU GPL v3
-// License: GPL v3
-// [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-
+license = {};
+license.name = "GNU GPL v3";
+license.badge = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]";
+license.link = "(https://www.gnu.org/licenses/gpl-3.0)";
+licenseInfo.push(license);
 // IBM - IBM Public License Version 1.0
-// License: IPL 1.0
+license = {};
+license.name = "IBM IPL 1.0";
 // [![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
-
+licenseInfo.push(license);
 // ISC - ISC License (ISC)
-// License: ICL
+license = {};
+license.name = "ISC License";
 // [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
-
+licenseInfo.push(license);
 // Mozilla - Mozilla Public License 2.0
-// License: MPL 2.0
+license = {};
+license.name = "Mozilla Public License  2.0";
 // [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
-
+licenseInfo.push(license);
 // Open Data Commons - Attribution License (BY)
-// License: Open Data Commons Attribution
+license = {};
+license.name = "Open Data Commons Attribution";
 // [![License: Open Data Commons Attribution](https://img.shields.io/badge/License-ODC_BY-brightgreen.svg)](https://opendatacommons.org/licenses/by/)
-
+licenseInfo.push(license);
 // Open Database License (ODbL)
-// License: ODbL
+license = {};
+license.name = "Open Database License ODbL";
 // [![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)](https://opendatacommons.org/licenses/odbl/)
-
+licenseInfo.push(license);
 // Perl - The Perl License
-// License: Artistic-2.0
+license = {};
+license.name = "Perl";
 // [![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)
-
+licenseInfo.push(license);
 // The Artistic License 2.0
-// License: Artistic-2.0
+license = {};
+license.name = "Artistic-2.0";
 // [![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic_2.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)
-
+licenseInfo.push(license);
 // Unlicense - The Unlicense
-// License: Unlicense
+license = {};
+license.name = "Unlicense";
 // [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
-
-// WTFPL - The Do What the Fuck You Want to Public License
-// License: WTFPL
+licenseInfo.push(license);
+// WTFPL - The Do What the Heck You Want to Public License
+license = {};
+license.name = "WTFPL";
 // [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
-
+licenseInfo.push(license);
 // Zlib - The zlib/libpng License
-// License: Zlib
+license = {};
+license.name = "Zlib";
 // [![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://opensource.org/licenses/Zlib)
-    return licenseInfo;
+licenseInfo.push(license);
+
+return licenseInfo;
 } // end createLicenseInfo
 
 function initLicenseNameArray(licenseInfo) {
