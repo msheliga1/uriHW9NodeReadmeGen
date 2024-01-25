@@ -1,27 +1,13 @@
-# TitleMJS   
+# tit   
 
 ## Description   
-  desc   
+  de   
 
 ## Table of Contents   
-[Installation](#installation)  
-[Usage](#usage)  
-[Contributing](#contributing)  
-[Testing](#tests)  
 [Questions](#questions)  
+[License](#license)  
   
-## Installation  
-  install   
+## License  
+  Apache - Apache 2.0 License   
 
-## Usage  
-  usage   
-
-## Contributing  
-  contrib   
-
-## Tests  
-  test   
-
-## Questions  
-  test   
-
+[Link](https://opensource.org/licenses/Apache-2.0)
