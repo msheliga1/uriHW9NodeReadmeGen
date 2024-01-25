@@ -92,52 +92,62 @@ licenseInfo.push(license);
 // IBM - IBM Public License Version 1.0
 license = {};
 license.name = "IBM IPL 1.0";
-// [![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+license.badge = "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)]";
+license.link = "(https://opensource.org/licenses/IPL-1.0)";
 licenseInfo.push(license);
 // ISC - ISC License (ISC)
 license = {};
 license.name = "ISC License";
-// [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+license.badge = "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]";
+license.link = "(https://opensource.org/licenses/ISC)";
 licenseInfo.push(license);
 // Mozilla - Mozilla Public License 2.0
 license = {};
 license.name = "Mozilla Public License  2.0";
-// [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+license.badge = "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)]";
+license.link = "(https://opensource.org/licenses/MPL-2.0)";
 licenseInfo.push(license);
 // Open Data Commons - Attribution License (BY)
 license = {};
 license.name = "Open Data Commons Attribution";
-// [![License: Open Data Commons Attribution](https://img.shields.io/badge/License-ODC_BY-brightgreen.svg)](https://opendatacommons.org/licenses/by/)
+license.badge = "[![License: Open Data Commons Attribution](https://img.shields.io/badge/License-ODC_BY-brightgreen.svg)]";
+license.link = "(https://opendatacommons.org/licenses/by/)";
 licenseInfo.push(license);
 // Open Database License (ODbL)
 license = {};
 license.name = "Open Database License ODbL";
-// [![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)](https://opendatacommons.org/licenses/odbl/)
+license.badge = "[![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)]";
+license.link = "(https://opendatacommons.org/licenses/odbl/)";
 licenseInfo.push(license);
 // Perl - The Perl License
 license = {};
 license.name = "Perl";
-// [![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)
+license.badge = "[![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)]";
+license.link = "(https://opensource.org/licenses/Artistic-2.0)";  // old perl superseded by artistic
 licenseInfo.push(license);
 // The Artistic License 2.0
 license = {};
 license.name = "Artistic-2.0";
-// [![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic_2.0-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)
+license.badge = "[![License: Artistic-2.0](https://img.shields.io/badge/License-Artistic_2.0-0298c3.svg)]";
+license.link = "(https://opensource.org/licenses/Artistic-2.0)";
 licenseInfo.push(license);
 // Unlicense - The Unlicense
 license = {};
 license.name = "Unlicense";
-// [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+license.badge = "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)]";
+license.link = "(http://unlicense.org/)";
 licenseInfo.push(license);
 // WTFPL - The Do What the Heck You Want to Public License
 license = {};
 license.name = "WTFPL";
-// [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
+license.badge = "[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)]";
+license.link = "(http://www.wtfpl.net/about/)";
 licenseInfo.push(license);
 // Zlib - The zlib/libpng License
 license = {};
 license.name = "Zlib";
-// [![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://opensource.org/licenses/Zlib)
+license.badge = "[![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)]";
+license.link = "(https://opensource.org/licenses/Zlib)";
 licenseInfo.push(license);
 
 return licenseInfo;

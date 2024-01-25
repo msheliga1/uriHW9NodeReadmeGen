@@ -1,12 +1,12 @@
-# ttboost2   [![License Boost](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)  
+# titperl   [![License: Artistic-2.0](https://img.shields.io/badge/License-Perl-0298c3.svg)](https://opensource.org/licenses/Artistic-2.0)  
 
 ## Description   
-  boost w link boost   
+  perl   
 
 ## Table of Contents   
 [Questions](#questions)  
 [License](#license)  
   
 ## License  
-[Boost Software License 1.0](https://www.boost.org/LICENSE_1_0.txt)  
+[Perl](https://opensource.org/licenses/Artistic-2.0)  
 
