@@ -4,8 +4,9 @@ Michael Sheliga - This repo is for the University of Richmond (URI) coding bootc
 
 ## Link to Repo, Screenshot(s) and/or video(s)
 Link to GitHub Repo: https://github.com/msheliga1/uriHW9NodeReadmeGen    
-<!---  Link to deployed github.io site. https://msheliga1.github.io/uriHW9NodeReadmeGen   --->
-Link to Video of Data Entry, push to gitHub and resulting README.md file. [Link](./Develop/images/hw9ReadmeGen.webm)
+<!---  Link to deployed github.io site. https://msheliga1.github.io/uriHW9NodeReadmeGen --->
+Link to video of data entry, push to gitHub and resulting README.md file. [Link](./Develop/images/hw9ReadmeGen.webm)   Note that this video seems to be too large to play in GitHub, so you will need to download and play 
+from your computer. WindowsMediaPlayer worked for me.  
 Link to screenshot of application. ![HW 9 README.md generator input Screenshot](./Develop/images/WorkingScreenshot.PNG)    
 Link to 2nd screenshot of generated README.md file. ![HW 9 README.md generator sample file Screenshot](./Develop/images/ResultsScreenshot.PNG)   
 [Link to Acceptance Criteria ](#acceptance-criteria)   
