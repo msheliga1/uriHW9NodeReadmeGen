@@ -50,7 +50,7 @@ licenseInfo.push(license);
 // Boost
 license = {};
 license.name = "Boost Software License 1.0";
-license.badge = "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)]";
+license.badge = "[![License Boost](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)]";
 license.link = "(https://www.boost.org/LICENSE_1_0.txt)";
 licenseInfo.push(license);
 // BSD
