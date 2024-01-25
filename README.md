@@ -43,7 +43,7 @@ See Also: [How to create a Professional README](https://coding-boot-camp.github.
     Deploy code (Settings...CodeAndAnimation->Pages on left, GitHub Pages->Branch->main, save)  
         - Deployed code name always msheliga1/github.io/RepoName !!  
     Make Sure it Works   
-    Insert Vidoe and/or Screenshot X2 of deployment into readme file. 
+    Insert Video and/or Screenshot X2 of deployment into readme file. 
   
 ## Tools and Technologies Used   
     Github - Branches not needed, but could use.  
