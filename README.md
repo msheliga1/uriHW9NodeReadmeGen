@@ -20,7 +20,7 @@ See Also: [How to create a Professional README](https://coding-boot-camp.github.
         -- No starter code. No need for copying one file at a time via command line.  
         -- Alternate: Go to Demo (root) folder, download zip, moving to local repo, unzip - likely fastest method.     
         -- Could not find a better way to copy over all files.    
-        -- OR ... create HTML, CSS and javascript, etc. from scratch or sample files ...   
+        -- OR ... create HTML, CSS and javascript, etc. from scratch, and copy sample files ... worked well.
     Branches (Optional for single programmer projects)  
         - Could do work in branches. (new branch inside gitHub)    
         - All branch names will begin with the initials of the main person working on the branch.  
