@@ -12,16 +12,17 @@
 [License](#license)  
   
 ## Installation  
-  To install this app you must ... enter and follow the directions.   
+  To install this app you must ... FOLLOW DIRECTIIONS!!
+   
 
 ## Usage  
-  Sample Usage Info   
+  Usage info   
 
 ## Contributing  
-  Sample Contrib Guidelines   
+  Contrib Guidelines   
 
 ## Tests  
-  Sample Test Instructions   
+  Sample Test SInstrcutinos   
 
 ## Questions  
 GitHub UserName: msheliga1 [Link to GitHub Account](https://github.com/msheliga1)   

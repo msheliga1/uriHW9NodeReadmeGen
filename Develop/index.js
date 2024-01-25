@@ -1,4 +1,4 @@
-// MJS URI HW 9 - Readme.md generator using fs and inquirier.
+// MJS URI HW 9 1.25.24 - Readme.md generator using fs and inquirier.
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inq = require('inquirer');
