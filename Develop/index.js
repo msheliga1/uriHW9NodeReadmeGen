@@ -73,8 +73,8 @@ license.link = "(http://creativecommons.org/publicdomain/zero/1.0/)";
 licenseInfo.push(license);
 // License: CC BY 4.0
 license = {};
-license.name = "Creative Commons BBB 4.0"; // [License: CC BY 4.0]
-license.badge = "[![License](https://licensebuttons.net/l/by/4.0/80x15.png)]";
+license.name = "Creative Commons BY 4.0"; // [License: CC BY 4.0] nor [License] shows up
+license.badge = "[![License CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)]";
 license.link = "(https://creativecommons.org/licenses/by/4.0/)";
 licenseInfo.push(license);
 // Eclipse - Eclipse Public License 1.0
