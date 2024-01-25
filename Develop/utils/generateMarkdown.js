@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-
+    return "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)";
 }
 
 // TODO: Create a function that returns the license link
@@ -33,6 +33,7 @@ function generateMarkdown(data) {
     console.log("Starting generateMarkdown");
     var mdStr = "";
     mdStr += `# ${data.title}   \n\n`;
+    mdStr += renderLicenseBadge(data.license);
     mdStr += `## Description   \n  ${data.description}   \n\n`;
     mdStr += `## Table of Contents   \n`;
 //    mdStr += `[Installation](#installation)  \n`;
