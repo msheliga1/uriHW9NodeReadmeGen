@@ -4,34 +4,33 @@ const fs = require('fs');
 const inq = require('inquirer');
 const gm = require('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
-// description, installation instructions, usage information, contribution guidelines, and test instructions
-// Description, Installation,              Usage,             Contributing,            and Tests
-const questions = [
-    {
-      type: 'input', message: 'Please enter project title:', name: 'title',
-    },
-    {
-      type: 'input', message: 'Please enter project description:', name: 'description',
-    },
-//    {
-//      type: 'text', message: 'Please enter installation instructions:', name: 'install',
-//    },
-//    {
-//      type: 'text', message: 'Please enter usage information', name: 'usage',
-//    },    
-//    {
-//        type: 'text', message: 'Please enter contribution guidelines:', name: 'contribution',
-//    },   
-//    {
-//        type: 'text', message: 'Please enter test instructions:', name: 'test',
-//    }, 
-    {
-        type: 'rawlist', message: 'Please choose a license:', name: 'license', 
-        default: '1', choices: ['None', "Apache - Apache 2.0 License", "Boost Software License 1.0"],
-    }, 
-  ]
 
+// TODO: Create a function to write README file
+function writeToFile(fileName, data) {
+    console.log("Starting writeToFile ");   
+    fs.writeFile('README.md', data, (err) => err ? errFunct(err): console.log("Success!"));
+}
+
+function errFunct(err) {console.log ("Error in write file ");}
+
+// TODO: Create a function to initialize app
+function init() {
+    console.log("Welcome to Mike Sheliga's README.md file generator.");
+    const licenseInfo = initLicenseInfo(); 
+    const licenseNameArray = initLicenseNameArray(licenseInfo);
+    const questions = initQuestions();
+    inq
+    .prompt(questions)
+    .then((ans) => {
+        console.log("Beginning .then");
+        const data = gm.generateMarkdown(ans);
+        console.log("The gm data is \n" + data);
+        writeToFile('README.md', data)
+    });
+}
+
+// Create a list of licenses. Each license has a name, link and badge.
+function initLicenseInfo() {
 //  License stuff
 //    Badges are made with Shields.io.
 //    Github has a new autodetection for LICENSE files, which shows the license at the repo overview
@@ -115,29 +114,47 @@ licenseInfo.push(license);
 // Zlib - The zlib/libpng License
 // License: Zlib
 // [![License: Zlib](https://img.shields.io/badge/License-Zlib-lightgrey.svg)](https://opensource.org/licenses/Zlib)
+    return licenseInfo;
+} // end createLicenseInfo
 
+function initLicenseNameArray(licenseInfo) {
+    const licenseNameArray = [];
+    for (var license of licenseInfo) {
+        licenseNameArray.push(license.name);
+    }
+    return licenseNameArray;
+} // end initLicenseNameArray 
 
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    console.log("Starting writeToFile ");   
-    fs.writeFile('README.md', data, (err) => err ? errFunct(err): console.log("Success!"));
-}
-
-function errFunct(err) {console.log ("Error in write file ");}
-
-// TODO: Create a function to initialize app
-function init() {
-    console.log("Welcome to Mike Sheliga's README.md file generator.");
-    inq
-    .prompt(questions)
-    .then((ans) => {
-        console.log("Beginning .then");
-        const data = gm.generateMarkdown(ans);
-        console.log("The gm data is \n" + data);
-        writeToFile('README.md', data)
-    });
-}
+function initQuestions(licenseInfo) {
+// TODO: Create an array of questions for user input
+// description, installation instructions, usage information, contribution guidelines, and test instructions
+// Description, Installation,              Usage,             Contributing,            and Tests
+    const questions = [
+        {
+        type: 'input', message: 'Please enter project title:', name: 'title',
+        },
+        {
+        type: 'input', message: 'Please enter project description:', name: 'description',
+        },
+    //    {
+    //      type: 'text', message: 'Please enter installation instructions:', name: 'install',
+    //    },
+    //    {
+    //      type: 'text', message: 'Please enter usage information', name: 'usage',
+    //    },    
+    //    {
+    //        type: 'text', message: 'Please enter contribution guidelines:', name: 'contribution',
+    //    },   
+    //    {
+    //        type: 'text', message: 'Please enter test instructions:', name: 'test',
+    //    }, 
+        {
+            type: 'rawlist', message: 'Please choose a license:', name: 'license', 
+            default: '1', choices: ['None', "Apache - Apache 2.0 License", "Boost Software License 1.0"],
+        }, 
+    ];
+  return questions;
+} // end initQuestions 
 
 // Function call to initialize app
 init();
