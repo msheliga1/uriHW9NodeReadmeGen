@@ -1,12 +1,12 @@
-# tt4   [![License CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/)  
+# ttboost   [![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)  
 
 ## Description   
-  dd   
+  boots   
 
 ## Table of Contents   
 [Questions](#questions)  
 [License](#license)  
   
 ## License  
-[Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+[Boost Software License 1.0](https://www.boost.org/LICENSE_1_0.txt)  
 
