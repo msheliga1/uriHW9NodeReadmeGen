@@ -1,5 +1,10 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
+// ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+// Badges aren't necessary, per se, but they demonstrate street cred. 
+// Badges let other developers know that you know what you're doing. 
+// Check out the badges hosted by [shields.io](https://shields.io/). 
+// You may not understand what they all represent now, but you will in time.
 function renderLicenseBadge(license) {
     return "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)";
 }
@@ -22,11 +27,6 @@ function renderLicenseSection(license) {
     return licenseStr;
 }
 
-// ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-// Badges aren't necessary, per se, but they demonstrate street cred. 
-// Badges let other developers know that you know what you're doing. 
-// Check out the badges hosted by [shields.io](https://shields.io/). 
-// You may not understand what they all represent now, but you will in time.
 // TODO: Create a function to generate markdown for README
 // Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions  
 function generateMarkdown(data) {
