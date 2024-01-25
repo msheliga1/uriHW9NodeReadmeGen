@@ -5,8 +5,8 @@ Michael Sheliga - This repo is for the University of Richmond (URI) coding bootc
 ## Link to Repo and Deployed Webpage    
 Link to GitHub Repo: https://github.com/msheliga1/uriHW9NodeReadmeGen    
 <!---  Link to deployed github.io site. https://msheliga1.github.io/uriHW9NodeReadmeGen   --->
-Link to screenshot of deployed github.io site. ![HW 9 README.md generator input Screenshot](./Develop/images/WorkingScreenshot.PNG)    
-Link to 2nd screenshot. ![HW 9 README.md generator sample file Screenshot](./Develop/images/ResultsScreenshot.PNG)   
+Link to screenshot of application. ![HW 9 README.md generator input Screenshot](./Develop/images/WorkingScreenshot.PNG)    
+Link to 2nd screenshot of generated README.md file. ![HW 9 README.md generator sample file Screenshot](./Develop/images/ResultsScreenshot.PNG)   
 [Link to Acceptance Criteria ](#acceptance-criteria)   
 
 ## Project Goals     
@@ -43,12 +43,13 @@ See Also: [How to create a Professional README](https://coding-boot-camp.github.
     Make Sure it Works   
     Insert Vidoe and/or Screenshot X2 of deployment into readme file. 
   
-## Tools and Technologies Used - HTML, CSS BootStrap Framework and JQuery   
+## Tools and Technologies Used   
     Github - Branches not needed, but could use.  
         - GitIgnore to keep NPM libraries out of gitHub repo.
     NPM - Node Package Manager
-    fs - fileSystem   
-    inquirer - Used for prompts (text, checkboxes, radio buttons, etc.)
+        fs - fileSystem   
+        inquirer - Used for prompts (text, list, checkboxes, editor, etc.)
+        email-validator - a nice add on to validate the user entered email.
     Agile - Try to assign a little work at a time.   
 
 ## Acceptance Criteria
