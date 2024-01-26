@@ -2,11 +2,13 @@
 URI Bootcamp HW Week 9 - Due 1.25.24 - Node.js Readme.md Generator Using inquirer and fs  
 Michael Sheliga - This repo is for the University of Richmond (URI) coding bootcamp.   
 
-## Link to Repo, Screenshot(s) and/or video(s)
+## Link to Repo, Screenshot(s) and/or Video(s)
 Link to GitHub Repo: https://github.com/msheliga1/uriHW9NodeReadmeGen    
-<!---  Link to deployed github.io site. https://msheliga1.github.io/uriHW9NodeReadmeGen --->
-Link to video of data entry, push to gitHub and resulting README.md file. [Link](./Develop/images/hw9ReadmeGen.webm)   Note that this video seems to be too large to play in GitHub, so you will need to download and play 
-from your computer. WindowsMediaPlayer worked for me.  
+<!---  Link to deployed github.io site. https://msheliga1.github.io/uriHW9NodeReadmeGen --->  
+Link to generated README.md: https://github.com/msheliga1/uriHW9NodeReadmeGen/blob/main/Develop/README.md  
+Link to Video on Google Drive: https://drive.google.com/file/d/1Qy387--czMmpXuCZT-xgI5SDjIt24yz_/view?usp=sharing   
+Link to Video on GitHbu of data entry, push to gitHub and resulting README.md file. [Link](./Develop/images/hw9ReadmeGen.webm)   Note that this video seems to be too large to play in GitHub, so you will need to download and play from your computer. WindowsMediaPlayer worked for me.   
+
 Link to screenshot of application. ![HW 9 README.md generator input Screenshot](./Develop/images/WorkingScreenshot.PNG)    
 Link to 2nd screenshot of generated README.md file. ![HW 9 README.md generator sample file Screenshot](./Develop/images/ResultsScreenshot.PNG)   
 [Link to Acceptance Criteria ](#acceptance-criteria)   
